@@ -1,0 +1,23 @@
+:root {
+  font-family: 'Manrope', sans-serif;
+  background: #FFFFFF;
+
+}
+
+
+button {
+  background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+  border-radius: 8px;
+  width: 190px;
+  height: 65px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.btn-style {
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  border: none;
+}
