@@ -1,11 +1,17 @@
 :root {
+  width: 1920px;
   font-family: 'Manrope', sans-serif;
   background: #FFFFFF;
 
 }
 
 
-button {
+.btn-style {
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  border: none;
   background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
   border-radius: 8px;
   width: 190px;
@@ -14,10 +20,14 @@ button {
   gap: 10px;
 }
 
-.btn-style {
-  color: #FFFFFF;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 27px;
+.btn-text {
+  width: 109px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 9px 19px;
   border: none;
+  color: #9873FF;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
 }

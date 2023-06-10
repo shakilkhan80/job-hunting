@@ -7,6 +7,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './components/Home/Home.jsx';
+import First from './components/First/First.jsx';
+import Second from './components/Second/Second.jsx';
+import Third from './components/Third/Third.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +18,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <p>hello sir</p>
+        element: <First></First>
+      },
+      {
+        path: 'applied',
+        element: <Second></Second>
+      },
+      {
+        path: 'blog',
+        element: <Third></Third>
       }
     ]
   }

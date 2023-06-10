@@ -8,6 +8,7 @@ nav a{
     text-decoration: none;
     color:  #757575;;
 }
-.nav-title{
-    color:  #1A1919;
+.nav-title h2{
+    color:  #9873FF;
+    font-size: 30px;
 }
